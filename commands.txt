@@ -1,0 +1,14 @@
+ls : lists all file in a directory (ls is short form of list)
+ls -a : ( shows all hidden files in the directory)
+git --version = tells git version
+git init : initialise a git repo.  in a directory
+git status =  to check status of current staging area
+git add = to add a file to staging area ( use git add . to add all files at one to staging area)
+git rm --cached <filename> or u can use . : remove an item from staging area
+git commit -m "message" : jo humare staging area me the unki photo leli gyi  ( create a version of curretn items in staging area)
+git log : provides detail abt the all the previous commits
+git restore --staged  <filename> (neither staged for commit  nor untracked)
+git reset --soft  <hash id of previous commit>
+git reset --hard <hash id of previous commit>
+git stash : takes a snapshot of the file in working directory and removes it from staging area
+git stash pop : brings it back ag
