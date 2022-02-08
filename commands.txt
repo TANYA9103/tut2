@@ -12,3 +12,4 @@ git reset --soft  <hash id of previous commit>
 git reset --hard <hash id of previous commit>
 git stash : takes a snapshot of the file in working directory and removes it from staging area
 git stash pop : brings it back ag
+git remote -v:shows the URL of the remote server
